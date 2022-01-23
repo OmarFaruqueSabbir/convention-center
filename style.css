@@ -2,19 +2,19 @@
     margin: 0;
     padding: 0;
 }
-
-.banner-img{
-
-    background-color: rgba(0,0,0,.7);
-    background-blend-mode: overlay; 
-}
-.button-book{
+/* image slider */
+.button-primary{
     background-image: linear-gradient(#e2ac37,#c2a319);
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
 }
-.button-book a{
+.button-primary a{
     text-decoration: none;
     color: white;
+}
+
+.brdr-bonus{
+    border-radius: 15px;
+    border: 15px solid gray;
 }
