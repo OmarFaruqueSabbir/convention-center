@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .container-fluid{
     margin: 0;
     padding: 0;
+}
+
+nav a{
+    font-weight: 500;
 }
 /* image slider */
 .button-primary{
@@ -13,7 +22,7 @@
     text-decoration: none;
     color: white;
 }
-
+/* bonus section */
 .brdr-bonus{
     border-radius: 15px;
     border: 12px solid gray;
@@ -21,15 +30,15 @@
 .toast{
     width: 280px;
 }
-
+/* package section */
 .card-body li{
     list-style: none;
 }
 
 .button-second{
-    background-image: linear-gradient(#F496D1);
+    background:#ebe8ea;
     border: none;
-    color: #3F87F5;
+    color: #0056d8;
     border-radius: 24px;
     padding: 9px 25px;
     width: 207px;
@@ -47,6 +56,8 @@
     height: 45px;
 }
 
+/* footer section */
+
 footer{
     height: 280px;
     background-color: #0B0D17;
@@ -59,7 +70,7 @@ footer{
     border: 2px solid white;
     border-radius: 5px;
     color: white;
-    width: 135px;
+    width: 145px;
     height: 50px;
 }
 .button-apple a{
@@ -71,8 +82,12 @@ footer{
     border: 2px solid white;
     border-radius: 5px;
     color: white;
-    width: 135px;
+    width: 145px;
     height: 50px;
+}
+.button-android a{
+    text-decoration: none;
+    color: white;
 }
 
 
