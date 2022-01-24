@@ -22,8 +22,8 @@ nav a{
     text-decoration: none;
     color: white;
 }
-/* bonus section */
-.brdr-bonus{
+/* second section */
+.border-second{
     border-radius: 15px;
     border: 12px solid gray;
 }
