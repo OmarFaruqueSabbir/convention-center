@@ -16,5 +16,34 @@
 
 .brdr-bonus{
     border-radius: 15px;
-    border: 15px solid gray;
+    border: 12px solid gray;
 }
+.toast{
+    width: 280px;
+}
+
+.card-body li{
+    list-style: none;
+}
+
+.button-second{
+    background-image: linear-gradient(#F496D1);
+    border: none;
+    color: #3F87F5;
+    border-radius: 24px;
+    padding: 9px 25px;
+    width: 207px;
+    height: 45px;
+}
+
+
+.button-third{
+    background-image: linear-gradient(#FFFFFF);
+    border: none;
+    color: #3F87F5;
+    border-radius: 24px;
+    padding: 9px 25px;
+    width: 207px;
+    height: 45px;
+}
+
